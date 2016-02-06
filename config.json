@@ -1,0 +1,15 @@
+{
+  "child_process":[
+                  { "name":"http",
+                    "process":"child_http",
+                    "autoRestart":true
+                  },
+                  { "name":"socket",
+                    "process":"child_socket",
+                     "autoRestart":true
+                  }
+    
+    ]
+    
+  
+}
