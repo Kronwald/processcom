@@ -1,6 +1,6 @@
 {
   "name": "processcom",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "little lib to communicate with process",
   "main": "index.js",
   "scripts": {
