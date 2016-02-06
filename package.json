@@ -1,0 +1,23 @@
+{
+  "name": "processcom",
+  "version": "0.0.1",
+  "description": "lalala",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "author": "Gauthier de Girodon Pralong",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kronwald/processcom.git"
+  },
+  "keywords": [
+    "node",
+    "process"
+  ],
+  "bugs": {
+    "url": "https://github.com/Kronwald/processcom/issues"
+  },
+  "homepage": "https://github.com/Kronwald/processcom"
+}
