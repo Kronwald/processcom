@@ -1,5 +1,6 @@
 /**
  * class MasterProcess
+ * 
  * @type {[type]}
  */
 var m = require('./lib/process/MasterProcess');
