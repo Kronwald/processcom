@@ -4,8 +4,8 @@
   "description": "little lib to communicate with process",
   "main": "index.js",
   "scripts": {
-   
-  },
+    "test" : "./node_modules/.bin/mocha ./test"
+    },
   "author": "Gauthier de Girodon Pralong",
   "license": "ISC",
   "repository": {
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dgpgdev/processcom/issues"
   },
-  "homepage": "https://github.com/dgpgdev/processcom"
+  "homepage": "https://github.com/dgpgdev/processcom",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
