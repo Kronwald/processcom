@@ -2,7 +2,7 @@
 communicate and launch multi node process on same machine
 
 Master process file
-```
+```js
 'use strict'
 //read config file
 var config = require('./config.json');
@@ -25,7 +25,7 @@ master.createProcess({name:"child3", process:"child_3"});
 ```
 
 child_1.js process file
-```
+```js
 'use strict'
 //create child process communication
 var child = require('processcom').createChild();
@@ -38,7 +38,7 @@ child.on('message', function(data){
 ```
 
 child_2.js process file
-```
+```js
 'use strict'
 //create child process communication
 var child = require('processcom').createChild();
@@ -54,7 +54,7 @@ setInterval(child.sendMessage.bind(child, {to:'child1', content:'hello from chil
 ```
 
 child_3.js process file
-```
+```js
 'use strict'
 //create child process communication
 var child = require('processcom').createChild();
