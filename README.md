@@ -1,5 +1,18 @@
 # processcom
+
+[![NPM Version][npm-image]][npm-url]
+
 communicate and launch multi node process on same machine
+
+## Installation
+
+```bash
+$ npm install processcom
+```
+
+###Exemple
+
+create 4 files
 
 Master process file
 ```js
@@ -81,10 +94,7 @@ config.json file
                     "process":"child_2",
                      "autoRestart":true
                   }
-    
-    ]
-    
-  
+    			]
 }
 
 ```
