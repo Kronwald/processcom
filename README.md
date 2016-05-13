@@ -1,6 +1,10 @@
 # processcom
+Master
 [![Build Status](https://travis-ci.org/dgpgdev/processcom.svg?branch=master)](https://travis-ci.org/dgpgdev/processcom)
+Develop
+[![Build Status](https://travis-ci.org/dgpgdev/processcom.svg?branch=develop)](https://travis-ci.org/dgpgdev/processcom)
 communicate and launch multi node process on same machine
+
 
 ## Installation
 
