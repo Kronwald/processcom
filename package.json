@@ -4,8 +4,8 @@
   "description": "little lib to communicate with process",
   "main": "index.js",
   "scripts": {
-    "test" : "./node_modules/.bin/mocha ./test"
-    },
+    "test": "./node_modules/.bin/mocha ./test"
+  },
   "author": "Gauthier de Girodon Pralong",
   "license": "ISC",
   "repository": {
@@ -23,5 +23,6 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
-  }
+  },
+  "dependencies": {}
 }
