@@ -1,0 +1,13 @@
+{
+    "restartDelay": 100,
+    "child_process": [{
+            "name": "child1",
+            "process": "child_1",
+            "autoRestart": true
+        }, {
+            "name": "child2",
+            "process": "child_2",
+            "autoRestart": true
+        }
+    ]
+}
